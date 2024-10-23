@@ -35,7 +35,7 @@ ssh-keygen -t rsa -b 4096
 ![myNames](assets/my-names.png)
 
 - In each instance replace the `my` parts in the double quotes with your name so `"myVnet"` in my case would become `"daveAmesVnet"`, change the 7 instances that begin with `my` throughout the file in the same way. If you leave them with their generic names then later in the day we will go through and delete any generically named resources to save space/bandwidth.
-- The rest of the settings seem pretty standard although we may have to go in manually after creating the VM and make a few changes to get everything configured. One thing you cna investigate if you wish is how to update the version of Ubuntu that is used to generate the image in Terraform and how to configure things like the Inbound rules for other ports apart from the SSH one.
+- The rest of the settings seem pretty standard although we may have to go in manually after creating the VM and make a few changes to get everything configured. One thing you can investigate if you wish is how to update the version of Ubuntu that is used to generate the image in Terraform and how to configure things like the Inbound rules for other ports apart from the SSH one.
 
 ## Creating the VM and Other Resources
 
