@@ -7,6 +7,8 @@
 
 ## TerraForm HowTo
 
+Make sure the Terraform CLI tool is installed: [Terraform CLI](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
+
 Azure's own deployment guide is here: [Deployment guide](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-terraform?tabs=azure-cli)
 
 We are going to be closely following the way they have done it, tweaking a few settings along the way.
